@@ -57,6 +57,10 @@
     _themeColor = themeColor;
     [self.doneBtn setBackgroundColor:themeColor];
 }
+- (void)setTextBtnColor:(UIColor *)textBtnColor {
+    _textBtnColor = textBtnColor;
+    [self.doneBtn setTitleColor:textBtnColor forState:UIControlStateNormal];
+}
 - (IBAction)didToolsBtnClick:(UIButton *)button {
     if (button.tag == 1 || button.tag == 2) {
         if (self.didToolsBtnBlock) {

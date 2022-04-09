@@ -29,6 +29,9 @@ typedef NS_ENUM(NSUInteger, HXPhotoEditAspectRatio) {
 /// 主题色
 @property (strong, nonatomic) UIColor *themeColor;
 
+/// 按钮文字颜色
+@property (strong, nonatomic) UIColor *textBtnColor;
+
 /// 只要裁剪功能
 @property (assign, nonatomic) BOOL onlyCliping;
 

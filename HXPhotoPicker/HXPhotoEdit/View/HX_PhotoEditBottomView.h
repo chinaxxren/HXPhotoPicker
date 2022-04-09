@@ -14,6 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// 主题色
 /// 默认微信主题色
 @property (strong, nonatomic) UIColor *themeColor;
+@property (strong, nonatomic) UIColor *textBtnColor;
 @property (copy, nonatomic) void (^ didToolsBtnBlock)(NSInteger tag, BOOL isSelected);
 @property (copy, nonatomic) void (^ didDoneBtnBlock)(void);
 + (instancetype)initView;

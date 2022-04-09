@@ -38,6 +38,12 @@
     }
     return _themeColor;
 }
+- (UIColor *)textBtnColor {
+    if (!_textBtnColor) {
+        _textBtnColor = [UIColor hx_colorWithHexStr:@"#ffffff"];
+    }
+    return _textBtnColor;
+}
 - (NSArray<UIColor *> *)drawColors {
     if (!_drawColors) {
         _drawColors = @[[UIColor hx_colorWithHexStr:@"#ffffff"], [UIColor hx_colorWithHexStr:@"#2B2B2B"], [UIColor hx_colorWithHexStr:@"#FA5150"], [UIColor hx_colorWithHexStr:@"#FEC200"], [UIColor hx_colorWithHexStr:@"#07C160"], [UIColor hx_colorWithHexStr:@"#10ADFF"], [UIColor hx_colorWithHexStr:@"#6467EF"]];

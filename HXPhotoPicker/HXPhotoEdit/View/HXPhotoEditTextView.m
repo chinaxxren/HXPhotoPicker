@@ -146,6 +146,7 @@
     _configuration = configuration;
     self.textView.tintColor = configuration.themeColor;
     [self.doneBtn setBackgroundColor:configuration.themeColor];
+    [self.doneBtn setTitleColor:configuration.textBtnColor forState:UIControlStateNormal];
 }
 - (void)setTextAttributes {
     self.textView.font = self.configuration.textFont;

@@ -600,6 +600,7 @@
     if (!_toolsView) {
         _toolsView = [HX_PhotoEditBottomView initView];
         _toolsView.themeColor = self.configuration.themeColor;
+        _toolsView.textBtnColor = self.configuration.textBtnColor;
         _toolsView.frame = CGRectMake(0, self.view.hx_h - 50 - hxBottomMargin, self.view.hx_w, 50 + hxBottomMargin);
         HXWeakSelf
         _toolsView.didToolsBtnBlock = ^(NSInteger tag, BOOL isSelected) {
